@@ -1,0 +1,104 @@
+/* Configurações Globais e Cores */
+:root {
+  --cor1: #f2dc6b; /* Amarelo claro */
+  --cor2: #8c8874; /* Cinza-esverdeado */
+  --cor3: #bf8a49; /* Ocre */
+  --cor4: #bf8c6f; /* Terracota */
+  --cor5: #8c5642; /* Marrom */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3e9e3; /* Um fundo neutro que combina com os tons terrosos */
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Estilo do Card Inicial */
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--cor5);
+  margin-bottom: 25px;
+}
+
+/* Estilo dos Botões */
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#btn-sim,
+#btn-proximo {
+  background-color: var(--cor3);
+  color: white;
+  
+}
+
+#btn-sim:hover,
+#btn-proximo:hover {
+  background-color: var(--cor5);
+  transform: scale(1.05);
+}
+
+#btn-nao {
+  background-color: var(--cor2);
+  color: white;
+}
+
+/* Estilo da Tela de Surpresa */
+#tela-surpresa img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#mensagem-surpresa {
+  color: var(--cor5);
+  font-size: 1.2em;
+  min-height: 100px; /* Espaço para a mensagem */
+  margin-bottom: 20px;
+}
+
+/* Nova classe para fazer o botão fugir */
+#btn-nao.fugindo {
+  position: absolute;
+}
+
+/* Classe para esconder elementos */
+.escondido {
+  display: none;
+}

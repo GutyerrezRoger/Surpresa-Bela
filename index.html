@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma surpresa para você!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="tela-inicial">
+    <div class="card">
+      <h1>Você tem certeza que me ama?</h1>
+      <div class="botoes">
+        <button id="btn-sim">SIM</button>
+        <button id="btn-nao">NÃO</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="tela-surpresa" class="escondido">
+    <img id="imagem-surpresa" src="img/img1.png" alt="Nossa Foto">
+    <p id="mensagem-surpresa"></p>
+    <button id="btn-proximo">Próximo</button>
+  </section>
+
+  <section id="tela-final" class="escondido">
+    <h1>Feliz Aniversário, meu amor!</h1>
+    <p>Aqui você pode escrever sua mensagem final!</p>
+  </section>
+
+  <audio id="musica-fundo" src="musica.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
