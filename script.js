@@ -147,7 +147,7 @@ const surpresas = [
   {
     imagem: "img/img30.png",
     mensagem:
-      "Até nas suas fazes tristes e ruins, que se estressa por estar com fome, quando faço drama ou pertubo vc na tpm, eu vou estar ao seu lado, mesmo que isso me machuque as vezes... mas no fundo meu amor por você vai se sobresair a qualquer coisa! E sei que você é a minha vida!",
+      "Até nas suas fazes tristes e ruins, que se estressa por estar com fome, quando faço drama ou pertubo vc na tpm. eu estarei ao seu lado, mesmo que isso me machuque as vezes... mas no fundo meu amor por você vai se sobresair a qualquer coisa! E sei que você é a minha vida!",
   },
   {
     imagem: "img/img31.png",
@@ -243,3 +243,4 @@ btnProximo.addEventListener("click", () => {
     telaFinal.classList.remove("escondido");
   }
 });
+
