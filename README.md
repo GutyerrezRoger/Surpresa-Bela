@@ -1,2 +1,2 @@
 # Surpresa-Bela
-Meu mais puro amor.
+Por questões de privacidade, as fotos foram removidas pós surpresa entregue
